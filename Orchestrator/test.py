@@ -2,7 +2,7 @@ import os, google.generativeai as genai
 from typing import List, Dict, Any, Optional
 from elasticsearch import Elasticsearch
 
-GEMINI_API_KEY = "AIzaSyAJlOwMZm7n08S-vqfzgISw1P-0D-UcnlI"
+GEMINI_API_KEY = 
 EMBED_MODEL    = "models/gemini-embedding-001"
 EMBED_DIMS     = 3072
 genai.configure(api_key=GEMINI_API_KEY)
